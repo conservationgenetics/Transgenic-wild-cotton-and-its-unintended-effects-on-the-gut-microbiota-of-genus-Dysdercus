@@ -3,10 +3,10 @@ Repository of manuscript Transgenic wild cotton and its unintended effects on th
 
 Authors: Javier Pérez-López ▲‡, Valeria Alavez ▲, Juan Fornoni», René Cerritos•, Ana Wegier Φ ‡.
 
-▲ Posgrado en Ciencias Biológicas, Instituto de Biología, Universidad Nacional Autónoma de México, Ciudad de México, México.
-» Instituto de Ecología, Universidad Nacional Autónoma de México, AP 70-275, Ciudad Universitaria, Coyoacán, 04510 CDMX, México.
-• División de Investigación, Facultad de Medicina, Universidad Nacional Autónoma de México, Av. Universidad 3000, circuito escolar s/n, 04510, Ciudad de México, México.
-Φ Laboratorio de Genética de la Conservación, Jardín Botánico, Instituto de Biología, Universidad Nacional Autónoma de México, Ciudad de México, México.
+* ▲ Posgrado en Ciencias Biológicas, Instituto de Biología, Universidad Nacional Autónoma de México, Ciudad de México, México.
+* » Instituto de Ecología, Universidad Nacional Autónoma de México, AP 70-275, Ciudad Universitaria, Coyoacán, 04510 CDMX, México.
+* • División de Investigación, Facultad de Medicina, Universidad Nacional Autónoma de México, Av. Universidad 3000, circuito escolar s/n, 04510, Ciudad de México, México.
+* Φ Laboratorio de Genética de la Conservación, Jardín Botánico, Instituto de Biología, Universidad Nacional Autónoma de México, Ciudad de México, México.
 
 ‡ Correspondence: fjplopez@ciencias.unam.mx; awegier@st.ib.unam.mx 
 
