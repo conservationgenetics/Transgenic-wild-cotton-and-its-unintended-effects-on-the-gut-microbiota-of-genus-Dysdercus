@@ -122,9 +122,6 @@ p2
 
 p1 / p2+ plot_layout(widths = c(2,10,2))
 
-#ggsave("./10_manejoR/Explotacion_postcandidatura/figures/Figure_1.png", dpi = 3000, height = 7, width = 9)
-
-
 ### Analysis of gut microbiota of females of Dysdercus collected on wild cotton with and without transgenes ####
 ### FIGURE 2A: Network female without cry1ab/ac ####
 amgut_genus_neg <- phyloseq::tax_glom(physeq_hembras_neg, taxrank = "Genus")
