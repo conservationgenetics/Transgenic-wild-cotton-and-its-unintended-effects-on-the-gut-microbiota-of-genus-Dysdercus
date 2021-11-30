@@ -10,11 +10,17 @@ Authors: Javier Pérez-López ▲‡, Valeria Alavez ▲, Juan Fornoni», René 
 
 ‡ Correspondence: fjplopez@ciencias.unam.mx; awegier@st.ib.unam.mx 
 
-Submitted to Journal: PeerJ – Life and Environment
+Submitted to Journal:
 
-Specialty Section: Animal- and Plant-Microbe Interactions Biology.  
+    PeerJ – Life and Environment
 
-Article type: Research Article
+Specialty Section:  
+
+    Animal- and Plant-Microbe Interactions Biology
+
+Article type: 
+
+    Research Articule
 
 Manuscript ID:
 
