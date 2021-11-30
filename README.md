@@ -39,5 +39,3 @@ Abstract
     PENDING
 
 Scripts used in this paper are presented
-
-Associated figures are in ./figures. Codes to replicate methods and make plots are in ./bin.
