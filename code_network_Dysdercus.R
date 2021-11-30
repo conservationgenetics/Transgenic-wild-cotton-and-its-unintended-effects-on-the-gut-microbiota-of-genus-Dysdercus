@@ -122,14 +122,11 @@ p2
 
 p1 / p2+ plot_layout(widths = c(2,10,2))
 
-ggsave("./10_manejoR/Explotacion_postcandidatura/figures/Figure_1.png", dpi = 3000, height = 7, width = 9)
+#ggsave("./10_manejoR/Explotacion_postcandidatura/figures/Figure_1.png", dpi = 3000, height = 7, width = 9)
 
 
-
-
-##### FIGURA 2 A y B ####
 ### Analysis of gut microbiota of females of Dysdercus collected on wild cotton with and without transgenes ####
-### Network female without cry1ab/ac ####
+### FIGURE 2A: Network female without cry1ab/ac ####
 amgut_genus_neg <- phyloseq::tax_glom(physeq_hembras_neg, taxrank = "Genus")
 taxtab <- amgut_genus_neg@tax_table@.Data
 amgut_genus_neg@tax_table@.Data <- taxtab
@@ -194,7 +191,7 @@ legend(1.2, 1, cex = 1, title = "estimated association:",
        bty = "n", horiz = F)
 
 
-### Network female with cry1ab/ac ####
+### FIGURE 2B: Network female with cry1ab/ac ####
 amgut_genus_pos <- phyloseq::tax_glom(physeq_hembras_cry, taxrank = "Genus")
 taxtab <- amgut_genus_pos@tax_table@.Data
 amgut_genus_pos@tax_table@.Data <- taxtab
@@ -256,7 +253,7 @@ legend(1.2, 1, cex = 1, title = "estimated association:",
        bty = "n", horiz = F)
 
 
-### FIGURE 3 A ####
+### FIGURE 3A ####
 #### Compare the intestinal network between females fed with and without cry1ab / ac #####
 net_season_pears <- netConstruct(data = amgut_genus_neg, 
                                  data2 = amgut_genus_pos, 
@@ -313,9 +310,8 @@ plot(diff_season, layout = "circle",
 
 
 
-##### FIGURA 2 C y D ####
 ### Analysis of gut microbiota of males of Dysdercus collected on wild cotton with and without transgenes ####
-### Network male without cry1ab/ac ####
+### FIGURE 2C: Network male without cry1ab/ac ####
 amgut_genus_neg <- phyloseq::tax_glom(physeq_macho_neg, taxrank = "Genus")
 taxtab <- amgut_genus_neg@tax_table@.Data
 amgut_genus_neg@tax_table@.Data <- taxtab
@@ -374,7 +370,7 @@ legend(1.2, 1, cex = 1, title = "estimated association:",
        bty = "n", horiz = F)
 
 
-### Network male with cry1ab/ac ####
+### FIGURE 2D: Network male with cry1ab/ac ####
 amgut_genus_pos <- phyloseq::tax_glom(physeq_macho_cry, taxrank = "Genus")
 taxtab <- amgut_genus_pos@tax_table@.Data
 amgut_genus_pos@tax_table@.Data <- taxtab
@@ -607,4 +603,3 @@ wilcox_results
 # write.table(wilcox_results, file = "./10_manejoR/Explotacion_postcandidatura/data/Wilcox_result_machos.xlsx", sep = ",", quote = FALSE, row.names = F)
 
 ######## END ###########
-
