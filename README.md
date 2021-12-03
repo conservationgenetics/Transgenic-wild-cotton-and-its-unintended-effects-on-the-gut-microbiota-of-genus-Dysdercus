@@ -1,4 +1,4 @@
-# Transgenic-wild-cotton-and-its-unintended-effects-on-the-gut-microbiota-of-the-genus-Dysdercus
+# Transgenic-wild-cotton-and-its-unintended-effects-on-the-gut-microbiota-of-genus-Dysdercus
 Repository of manuscript Transgenic wild cotton and its unintended effects on the gut microbiota of the genus Dysdercus contain its figures and codes analyzed.
 
 Authors: Javier Pérez-López ▲‡, Valeria Alavez ▲, Juan Fornoni», René Cerritos•, Ana Wegier Φ ‡.
