@@ -1,5 +1,5 @@
 #### Scripts used in the article: ####
-# Unite behind evolutionary biology: modifying public policies and their tools to achieve long term conservation
+# Transgenic-wild-cotton-and-its-unintended-effects-on-the-gut-microbiota-of-genus-Dysdercus
 
 # Authors: Javier Pérez-López ▲‡, Valeria Alavez ▲, Juan Fornoni», René Cerritos•, Ana Wegier Φ ‡.
 
@@ -19,14 +19,15 @@ library(igraph)
 library(tidyverse)
 library(microbiomeutilities)
 library(dplyr)
+library(patchwork)
 
-setwd("~/Escritorio/Pancitas_Dysdercus/")
+setwd("~/Escritorio/NCBI_formato/bin/")
 
 physeq<-qza_to_phyloseq(
-  features="./2_resultados/2_table.qza",
-  tree="./2_resultados/7_rooted-tree.qza",
-  "./2_resultados/6_taxonomy.qza",
-  metadata = "./1_secuencias/Metadata_manual.csv")
+  features="../files/2_table.qza",
+  tree="../files/7_rooted-tree.qza",
+  "../files/6_taxonomy.qza",
+  metadata = "../files/Metadata_manual.csv")
 
 physeq_filtro<-subset_samples(physeq, Especie %in% c("concinnus", "obliquus"))
 
@@ -67,7 +68,7 @@ phylum_colors <- c("#d4b8ff",
 
 #### Plot Phyla level ####
 levels(erie_phylum$sex) <- c("Female", "Male")
-levels(erie_phylum$PCR_result) <- c("cry1", "no-cry1")
+levels(erie_phylum$PCR_result) <- c("cry1ab/ac", "no-cry1ab/ac")
 levels(erie_phylum$Phylum)
 
 p1<- ggplot(erie_phylum,
@@ -85,7 +86,8 @@ p1<- ggplot(erie_phylum,
   theme_pubclean()+ theme(legend.position = "right")+ 
   coord_flip()+ theme(
     legend.title = element_text(color = "black", size = 10),
-    legend.text = element_text(color = "black", size = 8))
+    legend.text = element_text(color = "black", size = 8))+                               # Change margins of ggplot2 plot
+  theme(plot.margin = unit(c(2.5, 2.5, 0, 2.5), "cm"))
 p1
 
 ### Plot Class level #####
@@ -100,7 +102,7 @@ erie_phylum <- physeq_filtro %>%
 names(erie_phylum)
 unique(erie_phylum$Class)
 levels(erie_phylum$sex) <- c("Female", "Male")
-levels(erie_phylum$PCR_result) <- c("cry1", "no-cry1")
+levels(erie_phylum$PCR_result) <- c("cry1ab/ac", "no-cry1ab/ac")
 
 p2<- ggplot(erie_phylum %>% filter(Class != "Chloroplast"), 
             aes(x =PCR_result, y = Abundance, fill = Class)) + 
@@ -116,11 +118,11 @@ p2<- ggplot(erie_phylum %>% filter(Class != "Chloroplast"),
   theme(legend.position = "right") + 
   coord_flip()+ theme(
     legend.title = element_text(color = "black", size = 10),
-    legend.text = element_text(color = "black", size = 8))
+    legend.text = element_text(color = "black", size = 8))+                               # Change margins of ggplot2 plot
+  theme(plot.margin = unit(c(0, 2.5, 2.5, 2.5), "cm"))
 
-p2
 
-p1 / p2+ plot_layout(widths = c(2,10,2))
+p1 / p2
 
 ### Analysis of gut microbiota of females of Dysdercus collected on wild cotton with and without transgenes ####
 ### FIGURE 2A: Network female without cry1ab/ac ####
@@ -163,7 +165,9 @@ phyla <- as.factor(gsub("p__", "", taxtab[, "Phylum"])) # sí usarlo
 names(phyla) <- taxtab[, "Phylum"] # renombrar al phylum 
 phylcol_transp <- NetCoMi:::colToTransp(phylcol, 60)
 
-p <- plot(props_single, layout = "spring",
+
+
+fi2a <- plot(props_single, layout = "spring",
           nodeColor = "cluster",
           shortenLabels = "none",nodeTransp = 20,
           labelScale = F,
@@ -173,15 +177,15 @@ p <- plot(props_single, layout = "spring",
           borderCol = "white",
           nodeSizeSpread = 4,
           colorVec =  phylcol,
-          title1 = "Intestinal microbial network of females fed without cry1ab/ac",      
+          title1 = "A) Intestinal microbial network of \nfemales fed without cry1ab/ac",      
           posCol = "gray70", labelFont = 3,
           hubLabelFont = 3, hubBorderCol = "green",
           hubBorderWidth = 5,
           negCol = "orange",
           showTitle = TRUE,
           repulsion = .84,
-          cexTitle = 2.3, cexLabels = 1, rmSingles = "all",
-          mar = c(1, 3, 3, 10)) 
+          cexTitle = 2, cexLabels = 1, rmSingles = "all",
+          mar = c(2.5, 2.5, 4, 2.5)) 
 
 legend(1.2, 1, cex = 1, title = "estimated association:",
        legend = c("+","-"), lty = 1, lwd = 3, col = c("gray70","orange"), 
@@ -237,13 +241,16 @@ p <- plot(props_single, layout = "spring",
           borderCol = "white",
           nodeSizeSpread = 4,
           colorVec =  phylcol,
-          title1 = "Intestinal microbial network of females fed with cry1ab/ac",      
+          title1 = "B) Intestinal microbial network of females fed with cry1ab/ac",      
           posCol = "gray70", 
           negCol = "orange", labelFont = 3,
           showTitle = TRUE,
           repulsion = .84,
-          cexTitle = 2.3, cexLabels =1, rmSingles = "all",
-          mar = c(3, 3, 3, 10))
+          cexTitle = 2, cexLabels =1, rmSingles = "all",
+          mar = c(2.5, 2.5, 2.5, 2.5))
+
+
+
 
 legend(1.2, 1, cex = 1, title = "estimated association:",
        legend = c("+","-"), lty = 1, lwd = 3, col = c("gray70","orange"), 
@@ -489,13 +496,10 @@ plot(diff_season, layout = "circle",
 
 
 
-###################### resumen de taxas ##### 
-
-
-### taxas dominantes ####
-
-p0.gen <- aggregate_taxa(physeq_filtro,"Class")
-x.d <- dominant_taxa(physeq_filtro,level = "Class", 
+### Taxa dominant ####
+## Phylum level ####
+p0.gen <- aggregate_taxa(physeq_filtro,"Phylum")
+x.d <- dominant_taxa(physeq_filtro,level = "Phylum", 
                      group="PCR_result")
 
 x.d$dominant_overview 
@@ -505,6 +509,27 @@ get_taxa_unique(physeq_filtro, "Phylum")
 get_taxa_unique(physeq_hembras_cry, "Phylum")
 get_taxa_unique(physeq_hembras_neg, "Phylum")
 
+## Class level ####
+p0.gen <- aggregate_taxa(physeq_filtro,"Class")
+x.d <- dominant_taxa(physeq_filtro,level = "Class", 
+                     group="PCR_result")
+
+x.d$dominant_overview 
+
+get_taxa_unique(physeq_filtro, "Class")
+get_taxa_unique(physeq_hembras_cry, "Class")
+get_taxa_unique(physeq_hembras_neg, "Class")
+
+## Family level ####
+p0.gen <- aggregate_taxa(physeq_filtro,"Family")
+x.d <- dominant_taxa(physeq_filtro,level = "Family", 
+                     group="PCR_result")
+
+x.d$dominant_overview
+
+get_taxa_unique(physeq_filtro, "Family")
+get_taxa_unique(physeq_hembras_cry, "Family")
+get_taxa_unique(physeq_hembras_neg, "Family")
 
 ##### WILCOX TEST between females fed with and without cry1ab / ac ####
 (ps_clr <- microbiome::transform(physeq_hembras, 'clr'))          
@@ -548,9 +573,6 @@ wilcox_results$p_value<- round(wilcox_results$p_value, 10)
 wilcox_results$BH_FDR<- round(wilcox_results$BH_FDR, 10)
 
 wilcox_results 
-
-#write.table(wilcox_results, file = "./10_manejoR/Explotacion_postcandidatura/data/Wilcox_result_hembras.xlsx", sep = ",", quote = FALSE, row.names = F)
-
 
 ##### WILCOX TEST between males fed with and without cry1ab / ac ####
 
@@ -597,6 +619,6 @@ wilcox_results$BH_FDR<- round(wilcox_results$BH_FDR, 3)
 
 wilcox_results
 
-# write.table(wilcox_results, file = "./10_manejoR/Explotacion_postcandidatura/data/Wilcox_result_machos.xlsx", sep = ",", quote = FALSE, row.names = F)
 
 ######## END ###########
+
