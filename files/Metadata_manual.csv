@@ -1,0 +1,88 @@
+sample-id	PCR_result	sex	date	Local	Metapopulation	Latitude	Longitude	Especie	antes_key	Gut	Host	ID_bitacora	Secuenciacion
+HePy9Gh-Si-1576-19-S85-L001-R1-001	cry1	macho	25/01/13	Mazatlan, Teleria	Pacifico Norte	.23..2373.	.-106..4422.	mimus	HePy9Gh_Si_1576_19	.6..38.	.12..5.	110	1
+HePy9Gh-Si-1576-18-S61-L001-R1-001	cry1	macho	25/01/13	Mazatlan, Teleria	Pacifico Norte	.23..2373.	.-106..4422.	mimus	HePy9Gh_Si_1576_18	.2..62.	.11..2.	112	1
+HePy9Gh-Si-1576-15-S51-L001-R1-001	cry1	hembra	01/2013	Mazatlan, Teleria	Pacifico Norte	.23..2373.	.-106..4422.	mimus	HePy9Gh_Si_1576_15	out range high	.12..5.	78	1
+HePy9Gh-Si-1576-14-S16-L001-R1-001	cry1	macho	25/01/13	Mazatlan, Teleria	Pacifico Norte	.23..2373.	.-106..4422.	mimus	HePy9Gh_Si_1576_14	.14..9.	.11..1.	68	1
+HePy9Gh-Si-1576-11-S55-L001-R1-001	cry1	macho	25/01/13	Mazatlan, Teleria	Pacifico Norte	.23..2373.	.-106..4422.	mimus	HePy9Gh_Si_1576_11	.0..65.	.1..09.	113	2
+HePy9Gh-Si-1575-20-S58-L001-R1-001	Negativo	macho	25/01/13	Mazatlan, Teleria	Pacifico Norte	.23..2373.	.-106..4422.	mimus	HePy9Gh_Si_1575_20	.9..8.	.11..5.	107	2
+HePy9Gh-Si-1575-09-S70-L001-R1-001	Negativo	macho	25/01/13	Mazatlan, Teleria	Pacifico Norte	.23..2373.	.-106..4422.	mimus	HePy9Gh_Si_1575_09	.8..46.	11	100	2
+HePy9Gh-Si-1572-22-S43-L001-R1-001	cry1	macho	25/01/13	Mazatlan, Teleria	Pacifico Norte	.23..2373.	.-106..4422.	mimus	HePy9Gh_Si_1572_22	.1..44.	.0..86.	114	2
+HePy9Gh-Si-1572-10-S73-L001-R1-001	cry1	macho	01/2013	Mazatlan, Teleria	Pacifico Norte	.23..2373.	.-106..4422.	mimus	HePy9Gh_Si_1572_10	.10..2.	.12..9.	111	1
+HePy9Gh-Si-1507-21-S13-L001-R1-001	Negativo	hembra	24/01/13	Mazatlan, Puente Marina	Pacifico Norte	.23..2751.	.-106..4595.	mimus	HePy9Gh_Si_1507_21	.11..1.	.16..2.	125	1
+HePy9Gh-Si-1507-08-S25-L001-R1-001	Negativo	hembra	24/01/13	Mazatlan, Puente Marina	Pacifico Norte	.23..2751.	.-106..4595.	mimus	HePy9Gh_Si_1507_08	.39..9.	.17..6.	124	1
+HePy9Gh-Si-1507-07-S27-L001-R1-001	Negativo	macho	24/01/13	Mazatlan, Puente Marina	Pacifico Norte	.23..2751.	.-106..4595.	mimus	HePy9Gh_Si_1507_07	.12..8.	.5..64.	84	1
+HePy7Gh-Si-1477-13-S46-L001-R1-001	Negativo	macho	24/01/13	Mazatlan, Puente Marina	Pacifico Norte	.23..2751.	.-106..4595.	obliquus	HePy7Gh_Si_1477_13	.5..09.	.7..93.	118	2
+HePy3Gh-Si-1492-31-S86-L001-R1-001	cry1	hembra	24/01/13	Mazatlan, Puente Marina	Pacifico Norte	.23..2751.	.-106..4595.	flavolimbatus	HePy3Gh_Si_1492_31	.45..3.	.7..97.	87	1
+HePy1Gh-Si-1521-38-S19-L001-R1-001	cry1	hembra	24/01/13	Puente av sabalo cerrito	Pacifico Norte	.23..2751.	.-106..4595.	obliquus	HePy1Gh_Si_1521_38	11	.5..02.	53	2
+HePy1Gh-Si-1521-07-S7-L001-R1-001	cry1	hembra	24/01/13	Mazatlan, Puente Marina	Pacifico Norte	.23..2751.	.-106..4595.	obliquus	HePy1Gh_Si_1521_07	.14..6.	.3..36.	54	2
+HePy1Gh-Si-1521-06-S2-L001-R1-001	cry1	macho	24/01/13	Puente av sabalo cerrito	Pacifico Norte	.23..2751.	.-106..4595.	obliquus	HePy1Gh_Si_1521_06	.10..9.	.9..92.	109	1
+HePy1Gh-Si-1521-01-S52-L001-R1-001	cry1	hembra	24/01/13	Mazatlan, Puente Marina	Pacifico Norte	.23..2751.	.-106..4595.	obliquus	HePy1Gh_Si_1521_01	out range high	.7..6.	61	1
+HePy1Gh-Si-1517-19-S92-L001-R1-001	Negativo	hembra	24/01/13	Puente av sabalo cerrito	Pacifico Norte	.23..2751.	.-106..4595.	obliquus	HePy1Gh_Si_1517_19	.2..49.	.1..44.	123	2
+HePy1Gh-Si-1516-41-S23-L001-R1-001	Negativo	macho	24/01/13	Puente av sabalo cerrito	Pacifico Norte	.23..2751.	.-106..4595.	obliquus	HePy1Gh_Si_1516_41	.7..74.	.2..53.	80	2
+HePy1Gh-Si-1510-48-S82-L001-R1-001	Negativo	macho	24/01/13	Mazatlan, Puente Marina	Pacifico Norte	.23..2751.	.-106..4595.	obliquus	HePy1Gh_Si_1510_48	.0..211.	.1..77.	97	2
+HePy1Gh-Si-1510-34-S4-L001-R1-001	Negativo	macho	24/01/13	Mazatlan, Puente Marina	Pacifico Norte	.23..2751.	.-106..4595.	obliquus	HePy1Gh_Si_1510_34	.13..5.	11	72	1
+HePy1Gh-Si-1510-18-S37-L001-R1-001	Negativo	hembra	24/01/13	Mazatlan, Puente Marina	Pacifico Norte	.23..2751.	.-106..4595.	obliquus	HePy1Gh_Si_1510_18	27	.8..31.	120	1
+HePy1Gh-Si-1508-52-S35-L001-R1-001	Negativo	macho	24/01/13	Mazatlan, Puente Marina	Pacifico Norte	.23..2751.	.-106..4595.	obliquus	HePy1Gh_Si_1508_52	.3..37.	.8..85.	79	2
+HePy1Gh-Si-1508-40-S76-L001-R1-001	Negativo	macho	24/01/13	Mazatlan, Puente Marina	Pacifico Norte	.23..2751.	.-106..4595.	obliquus	HePy1Gh_Si_1508_40	.11..2.	.5..51.	59	1
+HePy1Gh-Si-1508-25-S26-L001-R1-001	Negativo	hembra	24/01/13	Mazatlan, Puente Marina	Pacifico Norte	.23..2751.	.-106..4595.	obliquus	HePy1Gh_Si_1508_25	out range high	.13..3.	102	1
+HePy1Gh-Si-1492-36-S14-L001-R1-001	cry1	macho	24/01/13	Playa Bruja, Sinaloa	Pacifico Norte	.23..2751.	.-106..4595.	obliquus	HePy1Gh_Si_1492_36	.7..43.	11	103	1
+HePy1Gh-Si-1492-21-S17-L001-R1-001	cry1	hembra	24/01/13	Playa Bruja, Sinaloa	Pacifico Norte	.23..2751.	.-106..4595.	obliquus	HePy1Gh_Si_1492_21	.23..1.	.4..4.	48	1
+HePy1Gh-Si-1477-50-S28-L001-R1-001	Negativo	macho	24/01/13	Mazatlan, Puente Marina	Pacifico Norte	.23..2751.	.-106..4595.	obliquus	HePy1Gh_Si_1477_50	.10..1.	.6..53.	65	1
+HePy1Gh-Si-1477-49-S47-L001-R1-001	Negativo	macho	24/01/13	Mazatlan, Puente Marina	Pacifico Norte	.23..2751.	.-106..4595.	obliquus	HePy1Gh_Si_1477_49	.4..93.	.4..81.	71	2
+HePy1Gh-Si-1477-29-S94-L001-R1-001	Negativo	macho	24/01/13	Mazatlan, Puente Marina	Pacifico Norte	.23..2751.	.-106..4595.	obliquus	HePy1Gh_Si_1477_29	.0..83.	.1..63.	95	2
+HePy1Gh-Si-1477-22-S50-L001-R1-001	Negativo	hembra	24/01/13	Mazatlan, Puente Marina	Pacifico Norte	.23..2751.	.-106..4595.	obliquus	HePy1Gh_Si_1477_22	.46..9.	.8..36.	90	1
+HePy1Gh-Si-1477-14-S21-L001-R1-001	Negativo	hembra	24/01/13	Mazatlan, Puente Marina	Pacifico Norte	.23..2751.	.-106..4595.	obliquus	HePy1Gh_Si_1477_14	.7..48.	.7..25.	121	2
+HePy1Gh-Si-1477-11-S62-L001-R1-001	Negativo	hembra	24/01/13	Mazatlan, Puente Marina	Pacifico Norte	.23..2751.	.-106..4595.	obliquus	HePy1Gh_Si_1477_11	.30..1.	.2..96.	89	1
+HePy1Gh-Si-1477-08-S59-L001-R1-001	Negativo	macho	24/01/13	Mazatlan, Puente Marina	Pacifico Norte	.23..2751.	.-106..4595.	obliquus	HePy1Gh_Si_1477_08	.3..36.	.7..05.	70	2
+HePy1Gh-Si-1477-04-S11-L001-R1-001	Negativo	macho	24/01/13	Mazatlan, Puente Marina	Pacifico Norte	.23..2751.	.-106..4595.	obliquus	HePy1Gh_Si_1477_04	.6..04.	.1..86.	94	2
+HePy1Gh-Si-1477-03-S39-L001-R1-001	Negativo	macho	24/01/13	Mazatlan, Puente Marina	Pacifico Norte	.23..2751.	.-106..4595.	obliquus	HePy1Gh_Si_1477_03	.14..5.	.6..11.	83	1
+HePy1Gh-Si-1476-32-S71-L001-R1-001	Negativo	macho	24/01/13	Mazatlan, Puente Marina	Pacifico Norte	.23..2751.	.-106..4595.	obliquus	HePy1Gh_Si_1476_32	.7..49.	.6..92.	69	2
+HePy1Gh-Si-1476-26-S33-L001-R1-001	Negativo	hembra	24/01/13	Mazatlan, Teleria	Pacifico Norte	.23..2751.	.-106..4595.	obliquus	HePy1Gh_Si_1476_26	.5..55.	.1..26.	98	2
+HePy1Gh-Si-1476-17-S64-L001-R1-001	Negativo	macho	24/01/13	Mazatlan, Puente Marina	Pacifico Norte	.23..2751.	.-106..4595.	obliquus	HePy1Gh_Si_1476_17	.10..5.	.7..08.	60	1
+HePy1Gh-Si-1476-16-S83-L001-R1-001	Negativo	macho	24/01/13	Mazatlan, Puente Marina	Pacifico Norte	.23..2751.	.-106..4595.	obliquus	HePy1Gh_Si_1476_16	.7..72.	.6..73.	67	2
+HePy1Gh-Si-1476-09-S9-L001-R1-001	Negativo	hembra	24/01/13	Mazatlan, Puente Marina	Pacifico Norte	.23..2751.	.-106..4595.	obliquus	HePy1Gh_Si_1476_09	52	.0..49.	122	2
+HePy12GhOCh-50-S80-L001-R1-001	cry1	macho	NA	Chivela	Pacífico Sur	.16..710724.	.-94..995662.	concinnus	HePy12GhOCh_50	.3..1.	.6..6.	17	2
+HePy12GhOCh-46-S78-L001-R1-001	cry1	hembra	NA	Chivela	Pacífico Sur	.16..710724.	.-94..995662.	concinnus	HePy12GhOCh_46	.16..6.	.7..49.	19	1
+HePy12GhOa-20-60-S29-L001-R1-001	cry1	hembra	22/02/13	Chivela	Pacífico Sur	.16..710724.	.-94..995662.	concinnus	HePy12GhOa_20-60	.10..3.	.4..26.	47	1
+HePy12GhOa-20-43-S32-L001-R1-001	cry1	macho	21/02/13	Chivela	Pacífico Sur	.16..710724.	.-94..995662.	concinnus	HePy12GhOa_20_43	.6..82.	.4..59.	46	2
+HePy12ghOa-20-33-S6-L001-R1-001	cry1	macho	21/02/13	Chivela	Pacífico Sur	.16..710724.	.-94..995662.	concinnus	HePy12ghOa_20_33	.14..7.	.10..1.	36	1
+HePy12GhOa-20-31-S31-L001-R1-001	cry1	hembra	21/02/13	Chivela	Pacífico Sur	.16..710724.	.-94..995662.	concinnus	HePy12GhOa_20_31	.4..3.	.5..08.	93	2
+HePy12GhOa-20-27-S67-L001-R1-001	cry1	macho	21/02/13	Chivela	Pacífico Sur	.16..710724.	.-94..995662.	concinnus	HePy12GhOa_20_27	.1..29.	.17..2.	115	2
+HePy12GhOa-20-23-S56-L001-R1-001	cry1	macho	21/02/13	Chivela	Pacífico Sur	.16..710724.	.-94..995662.	concinnus	HePy12GhOa_20_23	.12..8.	.13..2.	35	2
+HePy12GhOa-20-07-S77-L001-R1-001	cry1	hembra	21/02/13	Chivela	Pacífico Sur	.16..710724.	.-94..995662.	concinnus	HePy12GhOa_20_07	.12..5.	.9..15.	38	1
+HePy12GhO-Ch-87-S74-L001-R1-001	cry1	hembra	23/02/13	Chivela	Pacífico Sur	.16..710724.	.-94..995662.	concinnus	HePy12GhO_Ch_87	.23..1.	.6..73.	88	1
+HePy12GhO-78-S44-L001-R1-001	cry1	macho	05/07/05	Chivela	Pacífico Sur	.16..710724.	.-94..995662.	concinnus	HePy12GhO_78	.4..85.	.7..05.	45	2
+HePy12GhO-72-S79-L001-R1-001	cry1	macho	05/07/05	Chivela	Pacífico Sur	.16..710724.	.-94..995662.	concinnus	HePy12GhO_72	.0..49.	.7..13.	92	2
+Hepy12GhO-64-S20-L001-R1-001	cry1	macho	05/07/05	Chivela	Pacífico Sur	.16..710724.	.-94..995662.	concinnus	Hepy12GhO_64	.6..01.	.3..63.	56	2
+HePy12GhO-63-S89-L001-R1-001	cry1	hembra	05/07/05	Chivela	Pacífico Sur	.16..710724.	.-94..995662.	concinnus	HePy12GhO_63	.70..5.	.9..44.	37	1
+HePy12GhO-58-S68-L001-R1-001	cry1	macho	22/02/13	Chivela	Pacífico Sur	.16..710724.	.-94..995662.	concinnus	HePy12GhO_58	.5..55.	.7..29.	18	2
+HePy12GhO-55-S91-L001-R1-001	cry1	macho	05/07/05	Chivela	Pacífico Sur	.16..710724.	.-94..995662.	concinnus	HePy12GhO_55	.6..35.	.7..41.	75	2
+HePy12GhO-54-S88-L001-R1-001	cry1	macho	05/07/05	Chivela	Pacífico Sur	.16..710724.	.-94..995662.	concinnus	HePy12GhO_54	.13..2.	.4..77.	55	1
+HePy12GhO-49-S15-L001-R1-001	cry1	macho	05/07/05	Chivela	Pacífico Sur	.16..710724.	.-94..995662.	concinnus	HePy12GhO_49	13	.5..86.	85	1
+HePy12GhO-48-S75-L001-R1-001	cry1	macho	05/07/05	Chivela	Pacífico Sur	.16..710724.	.-94..995662.	concinnus	HePy12GhO_48	.12..9.	.8..64.	76	1
+HePy12GhO-47-S66-L001-R1-001	cry1	hembra	21/02/13	Chivela	Pacífico Sur	.16..710724.	.-94..995662.	concinnus	HePy12GhO_47	.11..9.	.7..46.	20	1
+HePy12GhO-42-S3-L001-R1-001	cry1	macho	22/02/13	Chivela	Pacífico Sur	.16..710724.	.-94..995662.	concinnus	HePy12GhO_42	.15..7.	.8..88.	86	1
+HePy12GhO-38-S8-L001-R1-001	cry1	macho	05/07/05	Chivela	Pacífico Sur	.16..710724.	.-94..995662.	concinnus	HePy12GhO_38	.9..36.	.6..6.	63	2
+HePy12GhO-37-S38-L001-R1-001	cry1	macho	05/07/05	Chivela	Pacífico Sur	.16..710724.	.-94..995662.	concinnus	HePy12GhO_37	.38..4.	.4..03.	91	1
+HePy12GhO-1613-86-S1-L001-R1-001	Negativo	hembra	23/02/13	Juchitan-car la ventosa	Pacífico Sur	.16..542429.	.-94..953713.	concinnus	HePy12GhO_1613_86	out range high	.20..9.	126	1
+HePy12GhO-1613-85-S95-L001-R1-001	Negativo	macho	23/02/13	Juchitan-car la ventosa	Pacífico Sur	.16..542429.	.-94..953713.	concinnus	HePy12GhO_1613_85	.1..61.	.10..6.	116	2
+HePy12GhO-1613-84-S45-L001-R1-001	Negativo	hembra	23/02/13	Juchitan	Pacífico Sur	.16..542429.	.-94..953713.	concinnus	HePy12GhO_1613_84	out range high	.9..45.	82	2
+HePy12GhO-1613-83-S12-L001-R1-001	Negativo	macho	23/02/13	Juchitan-car la ventosa	Pacífico Sur	.16..542429.	.-94..953713.	concinnus	HePy12GhO_1613_83	.2..62.	.6..97.	51	2
+HePy12GhO-1613-76-S69-L001-R1-001	Negativo	hembra	23/02/13	Juchitan	Pacífico Sur	.16..542429.	.-94..953713.	concinnus	HePy12GhO_1613_76	.1..5.	.7..03.	73	2
+HePy12GhO-1613-73-S84-L001-R1-001	Negativo	macho	23/02/13	La ventosa	Pacífico Sur	.16..542429.	.-94..953713.	concinnus	HePy12GhO_1613_73	.4..5.	.8..8.	13	2
+HePy12GhO-1613-71-S18-L001-R1-001	Negativo	hembra	23/02/13	Juchitan	Pacífico Sur	.16..542429.	.-94..953713.	concinnus	HePy12GhO_1613_71	.16..6.	.12..3.	34	1
+HePy12GhO-1613-65-S22-L001-R1-001	Negativo	hembra	23/02/13	Juchitan	Pacífico Sur	.16..542429.	.-94..953713.	concinnus	HePy12GhO_1613_65	.37..8.	.7..04.	57	2
+HePy12GhO-1613-59-S48-L001-R1-001	Negativo	macho	23/02/13	Juchitan	Pacífico Sur	.16..542429.	.-94..953713.	concinnus	HePy12GhO_1613_59	.3..99.	.5..19.	42	2
+HePy12GhO-1613-57-S60-L001-R1-001	Negativo	macho	23/02/13	Juchitan-car la ventosa	Pacífico Sur	.16..542429.	.-94..953713.	concinnus	HePy12GhO_1613_57	.2..98.	.5..02.	29	2
+HePy12GhO-1613-53-S36-L001-R1-001	Negativo	macho	23/02/13	Juchitan	Pacífico Sur	.16..542429.	.-94..953713.	concinnus	HePy12GhO_1613_53	.2..34.	.3..92.	49	2
+HePy12GhO-1613-44-S72-L001-R1-001	Negativo	macho	23/02/13	Juchitan	Pacífico Sur	.16..542429.	.-94..953713.	concinnus	HePy12GhO_1613_44	.2..88.	.3..37.	14	2
+HePy12GhO-1613-40-S49-L001-R1-001	Negativo	macho	23/02/13	Juchitan	Pacífico Sur	.16..542429.	.-94..953713.	concinnus	HePy12GhO_1613_40	.11..3.	.7..72.	117	1
+HePy12GhO-1613-35-S93-L001-R1-001	Negativo	hembra	23/02/13	Juchitan	Pacífico Sur	.16..542429.	.-94..953713.	concinnus	HePy12GhO_1613_35	.26..5.	.4..71.	64	2
+HePy12GhO-1613-30-S41-L001-R1-001	Negativo	hembra	23/02/13	Juchitan	Pacífico Sur	.16..542429.	.-94..953713.	concinnus	HePy12GhO_1613_30	.41..5.	.4..65.	43	1
+HePy12GhO-1613-28-S81-L001-R1-001	Negativo	hembra	23/02/13	Juchitan	Pacífico Sur	.16..542429.	.-94..953713.	concinnus	HePy12GhO_1613_28	.39..1.	.13..7.	66	2
+HePy12GhO-1613-24-S53-L001-R1-001	Negativo	macho	23/02/13	Juchitan	Pacífico Sur	.16..542429.	.-94..953713.	concinnus	HePy12GhO_1613_24	.13..6.	.14..1.	40	1
+HePy12GhO-1613-18-S34-L001-R1-001	Negativo	hembra	23/02/13	Juchitan	Pacífico Sur	.16..542429.	.-94..953713.	concinnus	HePy12GhO_1613_18	.17..9.	.6..52.	44	2
+HePy12GhO-1613-17-S5-L001-R1-001	Negativo	macho	23/02/13	Juchitan-car la ventosa	Pacífico Sur	.16..542429.	.-94..953713.	concinnus	HePy12GhO_1613_17	.10..7.	.4..18.	52	1
+HePy12GhO-1613-10-S42-L001-R1-001	Negativo	macho	23/02/13	Juchitan	Pacífico Sur	.16..542429.	.-94..953713.	concinnus	HePy12GhO_1613_10	.48..1.	.12..2.	32	1
+HePy12GhO-1613-09-S24-L001-R1-001	Negativo	macho	23/02/13	Juchitan	Pacífico Sur	.16..542429.	.-94..953713.	concinnus	HePy12GhO_1613_09	.2..94.	.5..93.	50	2
+HePy12GhO-1613-06-S54-L001-R1-001	Negativo	macho	23/02/13	Juchitan	Pacífico Sur	.16..542429.	.-94..953713.	concinnus	HePy12GhO_1613_06	.42..1.	.10..9.	31	1
