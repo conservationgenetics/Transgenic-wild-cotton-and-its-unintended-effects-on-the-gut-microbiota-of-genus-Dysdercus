@@ -21,8 +21,6 @@ library(microbiomeutilities)
 library(dplyr)
 library(patchwork)
 
-setwd("~/Escritorio/NCBI_formato/bin/")
-
 physeq<-qza_to_phyloseq(
   features="../files/2_table.qza",
   tree="../files/7_rooted-tree.qza",
